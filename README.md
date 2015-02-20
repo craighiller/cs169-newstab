@@ -1,6 +1,4 @@
-# Newstab #
-## CS169 ##
-## Spring 2015 ##
+# Newstab - Spring 2015 CS169 #
 
 This is the README for "Newstab", a Spring 2015 CS169 project.
 
