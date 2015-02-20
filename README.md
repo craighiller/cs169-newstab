@@ -1,24 +1,27 @@
+ _______                         __        ___.    
+ \      \   ______  _  _________/  |______ \_ |__  
+ /   |   \_/ __ \ \/ \/ /  ___/\   __\__  \ | __ \ 
+/    |    \  ___/\     /\___ \  |  |  / __ \| \_\ \
+\____|__  /\___  >\/\_//____  > |__| (____  /___  /
+        \/     \/           \/            \/    \/ 
+        
+        _________   _____________  ________________ 
+\_   ___ \ /   _____/_   |/  _____/   __   \
+/    \  \/ \_____  \ |   /   __  \\____    /
+\     \____/        \|   \  |__\  \  /    / 
+ \______  /_______  /|___|\_____  / /____/  
+        \/        \/            \/          
+        
+  _________            .__                 _______________  ____ .________
+ /   _____/____________|__| ____    ____   \_____  \   _  \/_   ||   ____/
+ \_____  \\____ \_  __ \  |/    \  / ___\   /  ____/  /_\  \|   ||____  \ 
+ /        \  |_> >  | \/  |   |  \/ /_/  > /       \  \_/   \   |/       \
+/_______  /   __/|__|  |__|___|  /\___  /  \_______ \_____  /___/______  /
+        \/|__|                 \//_____/           \/     \/           \/ 
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
 
+This is the README for "Newstab", a Spring 2015 CS169 project.
 
-Welcome to your Rails project on Cloud9 IDE!
+This project is being developed on Cloud9, and lives here:
 
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://cs169-newstab-ryan-yu.c9.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+https://cs169-newstab-ryan-yu.c9.io/
