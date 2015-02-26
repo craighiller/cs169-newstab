@@ -40,8 +40,8 @@ gem 'spring',        group: :development
 
 
 gem 'devise'
-gem 'omniauth-facebook'
 gem 'pismo'
+gem 'omniauth-facebook'
 
 group :test do
   gem 'cucumber-rails', :require => false
