@@ -1,5 +1,7 @@
 <!-- Placeholder header for user signin -->
 
+<%= link_to "Home", root_path %>
+
 <% if user_signed_in? %>
   User is signed in as <%= current_user.email %>
   <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
