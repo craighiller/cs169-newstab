@@ -1,0 +1,9 @@
+<!-- Placeholder header for user signin -->
+
+<% if user_signed_in? %>
+  User is signed in as <%= current_user.email %>
+  <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+<% else %>
+  User is not signed in.
+  <%= link_to "Sign in", new_user_session_path %>
+<% end %>
