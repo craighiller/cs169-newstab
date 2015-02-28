@@ -22,7 +22,7 @@ class ArticlesController < ApplicationController
 
   def create
     # Uses Pismo (gem) to grab title, content, photo of URL
-    @article = Article.new_from_url(article_params[:url])
+    @article = Article.new_from_url(article_params)
     @article.save
     respond_with(@article)
   end
@@ -43,6 +43,6 @@ class ArticlesController < ApplicationController
     end
 
     def article_params
-      params.require(:article).permit(:url, :title, :datetime, :content, :photo)
+      params.require(:article).permit(:url, :title, :datetime, :content, :photo, :initial_comment)
     end
 end
