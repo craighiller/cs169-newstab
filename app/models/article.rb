@@ -3,18 +3,23 @@ class Article < ActiveRecord::Base
   
   validates_presence_of :url
   validates_presence_of :initial_comment
+  validates_presence_of :user_id
   
-  def self.new_from_url(article_params)
-      url = article_params[:url]
-      initial_comment = article_params[:initial_comment]
-      doc = Pismo[url]
+  belongs_to :user
+  
+  # Given an already-initialized Article object with a URL, initial_comment, and user_id parameter
+  # (these parameters' presence are validated), this method invokes the Pismo gem to 
+  # populate the title, content, datetime, and photo attributes of the article
+  def populate_url_fields
+      doc = Pismo::Document.new(self.url)
       begin
         img = doc.images[0]
       rescue
         img = ""
       end
-      p = {:title => doc.title, :content => doc.html_body, :datetime => doc.datetime, :photo => img, :url => url, :initial_comment => initial_comment}
-      self.new p
+      self.title = doc.title
+      self.content = doc.body
+      self.datetime = doc.datetime
+      self.photo = img
   end
-  
 end

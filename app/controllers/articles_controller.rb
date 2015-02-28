@@ -21,10 +21,27 @@ class ArticlesController < ApplicationController
   end
 
   def create
+    # Creates article object with current_user_id, initial_comment, and URL
+    @article = current_user.articles.build(article_params)
+    
     # Uses Pismo (gem) to grab title, content, photo of URL
-    @article = Article.new_from_url(article_params)
-    @article.save
-    respond_with(@article)
+    @article.populate_url_fields
+    if @article.save
+      flash[:success] = "Article created!"
+
+      # Might need to change the location of this redirect
+      redirect_to root_url
+    else
+      # Let's change this later
+      redirect_to root_url
+    end
+    
+    
+    
+    # Uses Pismo (gem) to grab title, content, photo of URL
+    # @article = Article.new_from_url(article_params)
+    # @article.save
+    # respond_with(@article)
   end
 
   def update
