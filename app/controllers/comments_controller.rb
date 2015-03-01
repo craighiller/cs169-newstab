@@ -5,8 +5,7 @@ class CommentsController < ApplicationController
   respond_to :html
 
   def index
-    @comments = Comment.all
-    respond_with(@comments)
+    redirect_to @article
   end
 
   def show

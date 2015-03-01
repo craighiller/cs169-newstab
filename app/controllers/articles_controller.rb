@@ -1,6 +1,7 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, only: [:new, :create, :edit, :destroy, :update]
+  before_action :verify_own_article, only: [:destroy]
   respond_to :html
 
   def index
@@ -41,12 +42,6 @@ class ArticlesController < ApplicationController
       redirect_to root_url
     end
     
-    
-    
-    # Uses Pismo (gem) to grab title, content, photo of URL
-    # @article = Article.new_from_url(article_params)
-    # @article.save
-    # respond_with(@article)
   end
 
   def update
@@ -55,8 +50,14 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
-    @article.destroy
-    respond_with(@article)
+    if @article
+      @article.destroy
+      flash[:notice] = "Article successfully destroyed."
+    else
+      flash[:notice] = "You do not have permission to delete this article."
+    end
+    # TODO: change this to another redirect location
+    redirect_to root_path
   end
 
   private
@@ -66,5 +67,10 @@ class ArticlesController < ApplicationController
 
     def article_params
       params.require(:article).permit(:url, :title, :datetime, :content, :photo, :initial_comment)
+    end
+    
+    # Ensure that a signed in user can only delete articles that they have posted
+    def verify_own_article
+      @article = current_user.articles.find_by_id(params[:id])
     end
 end
