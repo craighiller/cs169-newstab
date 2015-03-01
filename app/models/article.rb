@@ -6,6 +6,7 @@ class Article < ActiveRecord::Base
   validates_presence_of :user_id
   
   belongs_to :user
+  has_many :comments
   
   # Given an already-initialized Article object with a URL, initial_comment, and user_id parameter
   # (these parameters' presence are validated), this method invokes the Pismo gem to 

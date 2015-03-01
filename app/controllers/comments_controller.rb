@@ -1,6 +1,7 @@
 class CommentsController < ApplicationController
   before_action :set_comment, only: [:show, :edit, :update, :destroy]
-
+  before_action :set_article
+  before_action :authenticate_user!, only: [:new, :create, :edit, :destroy, :update]
   respond_to :html
 
   def index
@@ -21,9 +22,12 @@ class CommentsController < ApplicationController
   end
 
   def create
-    @comment = Comment.new(comment_params)
-    @comment.save
-    respond_with(@comment)
+    @comment = @article.comments.create(comment_params)
+    @comment.user_id = current_user.id
+    if @comment.save
+      flash[:notice] = "Comment successfully created!"
+    end
+    redirect_to @article
   end
 
   def update
@@ -37,11 +41,16 @@ class CommentsController < ApplicationController
   end
 
   private
+  
+    def set_article
+      @article = Article.find(params[:article_id])
+    end
+  
     def set_comment
       @comment = Comment.find(params[:id])
     end
 
     def comment_params
-      params.require(:comment).permit(:body)
+      params.require(:comment).permit(:body, :user_id)
     end
 end

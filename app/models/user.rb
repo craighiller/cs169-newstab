@@ -8,7 +8,8 @@ class User < ActiveRecord::Base
   validates_presence_of :first_name
   validates_presence_of :last_name
   
-  has_many :articles, dependent: :destroy
+  has_many :articles
+  has_many :comments, dependent: :destroy
   
   def self.from_omniauth(auth)
     where(provider: auth.provider, uid: auth.uid).first_or_create do |user|

@@ -36,5 +36,37 @@
   <%= @article.user.email %>
 </p>
 
+<!-- Placeholder front end to display comments... -->
+
+<b>Post comments:</b><br />
+
+<table>
+  <thead>
+    <tr>
+      <th>User email</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @article.comments.each do |comment| %>
+      <tr>
+        <td><%= comment.user.email %></td>
+        <td><%= comment.body %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<br />
+
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
+
+<br /><br />
+
+<%= form_for ([@article, @article.comments.build]) do |f| %>
+  <div class="field">
+    <%= f.text_area :body, placeholder: "Compose new comment..." %>
+  </div>
+  <%= f.submit "Post" %>
+<% end %>
