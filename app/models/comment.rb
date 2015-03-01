@@ -5,4 +5,8 @@ class Comment < ActiveRecord::Base
   belongs_to :article
   belongs_to :user
   
+  def posted_by? user
+    user && self.user_id == user.id
+  end
+  
 end

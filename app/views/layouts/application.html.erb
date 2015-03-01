@@ -12,6 +12,7 @@
   
   <%= render 'layouts/header' %>
   
+  <!-- For some reason, two flashes get printed... -->
   <% flash.each do |key, value| %>
     <div class="alert alert-<%= key %>"><%= value %></div>
   <% end %>

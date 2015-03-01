@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-  before_action :set_comment, only: [:show, :edit, :update, :destroy]
+  before_action :set_comment, only: [:destroy]
   before_action :set_article
   before_action :authenticate_user!, only: [:new, :create, :edit, :destroy, :update]
   respond_to :html
@@ -10,7 +10,7 @@ class CommentsController < ApplicationController
   end
 
   def show
-    respond_with(@comment)
+    redirect_to @article
   end
 
   def new
@@ -36,8 +36,11 @@ class CommentsController < ApplicationController
   end
 
   def destroy
-    @comment.destroy
-    respond_with(@comment)
+    if @comment
+      @comment.destroy
+      flash[:notice] = "Comment has been successfully deleted."
+    end
+    redirect_to @article
   end
 
   private
@@ -46,8 +49,11 @@ class CommentsController < ApplicationController
       @article = Article.find(params[:article_id])
     end
   
+    # For all controller methods besides 'new' and 'create', the variable @comment
+    # is unset. This method prevents external POST requests from deleting arbitrary comments,
+    # as a comment to-be-deleted must be verified as belonging to the current_user
     def set_comment
-      @comment = Comment.find(params[:id])
+      @comment = current_user.comments.find_by_id(params[:id])
     end
 
     def comment_params

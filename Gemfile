@@ -41,6 +41,7 @@ gem 'spring',        group: :development
 
 gem 'devise'
 gem 'pismo'
+gem 'omniauth'
 gem 'omniauth-facebook'
 
 group :test do
