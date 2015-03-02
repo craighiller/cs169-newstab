@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
   validates_presence_of :last_name
   
   has_many :articles
+  has_many :likes
   has_many :comments, dependent: :destroy
   
   def self.from_omniauth(auth)
@@ -18,5 +19,14 @@ class User < ActiveRecord::Base
     end
   end
   
+  # Checks whether the 'self' user has liked the given article
+  def likes? article
+    !!(article_like article)
+  end
+  
+  # Gets the like for the given article that the 'self' user has created
+  def article_like article
+    self.likes.find_by_article_id(article.id)
+  end
   
 end

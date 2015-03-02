@@ -10,11 +10,6 @@ class ArticlesController < ApplicationController
   end
 
   def show
-    # @comment = @article.comments.build
-    # @article.comments.reject(&:new_record?)
-    # if user_signed_in?
-    #   @comment.user_id = current_user.id
-    # end
     respond_with(@article)
   end
 

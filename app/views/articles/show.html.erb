@@ -1,6 +1,13 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Number of Likes:</strong>
+  <%= @article.likes.size %>
+</p>
+
+<%= render 'likes/likes_form' %>
+
+<p>
   <strong>Url:</strong>
   <%= @article.url %>
 </p>
