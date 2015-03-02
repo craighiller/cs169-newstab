@@ -2,8 +2,6 @@ class LikesController < ApplicationController
   before_action :set_article
   before_action :set_like, only: [:destroy]
   before_action :authenticate_user!
-  
-  after_action :redirect_to_article, only: [:create, :destroy]
 
   respond_to :html
 
@@ -12,7 +10,6 @@ class LikesController < ApplicationController
     current_user.likes << like
     @article.likes << like
     respond_with @article
-    
   end
 
   def destroy
@@ -33,7 +30,4 @@ class LikesController < ApplicationController
       params[:like]
     end
     
-    def redirect_to_article
-      redirect_to @article
-    end
 end
