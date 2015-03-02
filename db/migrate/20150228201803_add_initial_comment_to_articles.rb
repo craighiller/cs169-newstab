@@ -1,5 +1,5 @@
 class AddInitialCommentToArticles < ActiveRecord::Migration
   def change
-    t.string :photo
+    add_column :articles, :initial_comment, :text
   end
 end

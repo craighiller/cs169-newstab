@@ -21,8 +21,8 @@ ActiveRecord::Schema.define(version: 20150302072928) do
     t.string   "photo"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.text     "initial_comment"
     t.integer  "user_id"
+    t.text     "initial_comment"
   end
 
   add_index "articles", ["user_id"], name: "index_articles_on_user_id"
