@@ -1,1 +1,42 @@
-<%= @user.first_name %> <%= @user.last_name %>
+<h1>
+  <%= @user.first_name %> <%= @user.last_name %>
+</h1>
+
+<!-- Placeholder displaying of a user's microposts -->
+<% if @user.articles.any? %>
+  <h3>
+    <%= @user.first_name %>'s Articles (<%= @user.articles.count %>)
+  </h3>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Url</th>
+        <th>Title</th>
+        <th>Datetime</th>
+        <th>Content</th>
+        <th>Initial Comment</th>
+        <th>Photo</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+  
+    <tbody>
+      <% @articles.each do |article| %>
+        <tr>
+          <td><%= article.url %></td>
+          <td><%= article.title %></td>
+          <td><%= article.datetime %></td>
+          <td><%= article.content %></td>
+          <td><%= article.initial_comment %></td>
+          <td><%= image_tag article.photo %></td>
+          <td><%= link_to 'Show', article %></td>
+          <td><%= link_to 'Edit', edit_article_path(article) %></td>
+          <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <%= @user.first_name %> has not posted any articles.
+<% end %>

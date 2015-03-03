@@ -3,11 +3,13 @@ class UsersController < ApplicationController
   before_filter :set_user, only: [:show]
   
   def index
-    @users = User.all  
+    @users = User.all
   end
   
+  # We display only a user's posted articles on his/her show page
   def show
-    
+    # TODO: Paginate articles?
+    @articles = @user.articles
   end
   
   private
