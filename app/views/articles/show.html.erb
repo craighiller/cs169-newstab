@@ -43,32 +43,44 @@
   <%= @article.user.email %>
 </p>
 
-<!-- Placeholder front end to display comments... -->
+<!-- Placeholder to display comments... -->
 
-<b>Post comments:</b><br />
+<% if @article.comments.count > 0 %>
 
-<table>
-  <thead>
-    <tr>
-      <th>User email</th>
-      <th>Comment</th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @article.comments.each do |comment| %>
+  <b>Post comments:</b><br />
+  
+  <table>
+    <thead>
       <tr>
-        <td><%= comment.user.email %></td>
-        <td><%= comment.body %></td>
-        <% if comment.posted_by? current_user %>
-          <td><%= link_to "Delete", article_comment_path(@article, comment), method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        <% end %>
+        <th></th>
+        <th>User email</th>
+        <th>Comment</th>
+        <th></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
+  
+    <tbody>
+      <% @article.comments.each do |comment| %>
+        <tr>
+          <td>(posted <%= time_ago_in_words(comment.created_at) %> ago)</td>
+          <td><%= comment.user.email %></td>
+          <td><%= comment.body %></td>
+          <% if comment.posted_by? current_user %>
+            <td><%= link_to "Delete", article_comment_path(@article, comment), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <% end %>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+<% else %>
+
+  <b>No comments.</b>
+  
+<% end %>
 <br />
+
+<!-- End of placeholder to display comments... -->
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>

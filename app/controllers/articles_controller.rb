@@ -24,6 +24,10 @@ class ArticlesController < ApplicationController
   end
 
   def edit
+    if current_user.articles.find_by_id(params[:id]).nil?
+      flash[:notice] = "You do not have permission to edit this article."
+      redirect_to @article
+    end
   end
 
   def create
@@ -46,6 +50,7 @@ class ArticlesController < ApplicationController
 
   def update
     @article.update(article_params)
+    flash[:notice] = "Article successfully updated."
     respond_with(@article)
   end
 
