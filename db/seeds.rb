@@ -24,8 +24,10 @@ end
 users = User.order(:created_at).take(6)
 50.times do
   fake_url = Faker::Lorem.sentence(1)
-  content = Faker::Lorem.sentence(5)
-  users.each { |user| user.articles.create!(url: fake_url, initial_comment: content) }
+  fake_comment = Faker::Lorem.sentence(2)
+  fake_content = Faker::Lorem.sentence(4)
+  users.each { |user| user.articles.create!(url: fake_url, initial_comment: fake_comment,
+    content: fake_content ) }
 end
 
 # Following relationships
