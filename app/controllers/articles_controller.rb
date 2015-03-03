@@ -7,6 +7,7 @@ class ArticlesController < ApplicationController
   def index
     if user_signed_in?
       @articles = current_user.article_feed
+      # TODO: if there are too few articles on a user's feed, we want to display more articles
     else
       @articles = Article.all
     end
