@@ -1,9 +1,13 @@
-<!-- Placeholder header for user signin -->
+<!-- Placeholder header for user sign in -->
 
 <%= link_to "Home", root_path %>
+<%= link_to "List of Users", users_path %>
+
+<br />
 
 <% if user_signed_in? %>
   User is signed in as <%= current_user.email %>
+  <%= link_to "My Profile", current_user %>
   <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
 <% else %>
   User is not signed in.
