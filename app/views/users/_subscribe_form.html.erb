@@ -1,0 +1,20 @@
+<!-- This form will be rendered on the user show page -->
+<!-- Don't render any of this if @user is the current user (user can't subscribe to him/herself) -->
+<% unless current_user == @user %>
+
+  <% if current_user.subscribing?(@user) %>
+    <%= form_for(current_user.active_subscriptions.find_by(subscribed_id: @user.id), html: { method: :delete }) do |f| %>
+      <%= f.submit "Unsubscribe" %>
+    <% end %>
+    
+  <% else %>
+  
+    <%= form_for(current_user.active_subscriptions.build) do |f| %>
+      <!-- The subscribe form doesn't have any content other than the button, but still needs
+      to send the subscribed_id to the controller, so we use a hidden_field_tag -->
+      <%= hidden_field_tag :subscribed_id, @user.id %>
+      <%= f.submit "Subscribe" %>
+    <% end %>
+    
+  <% end %>
+<% end %>

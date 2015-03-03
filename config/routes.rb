@@ -8,12 +8,19 @@ Rails.application.routes.draw do
   
   # Handles CRUD operations (but in reality only index/show) for users.
   # This line MUST be listed after 'devise_for :users'
-  resources :users, only: [:index, :show]
+  resources :users, only: [:index, :show] do
+    # Generates 'subscribing_user_path(user_id)' and 'subscribers_user_path(user_id)'
+    member do
+      get :subscribing, :subscribers
+    end
+  end
   
   resources :articles do
     resources :likes, only: [:create, :destroy]
     resources :comments
   end
+  
+  resources :subscriptions, only: [:create, :destroy]
   
   root 'articles#index'
 

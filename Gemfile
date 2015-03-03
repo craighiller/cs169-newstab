@@ -44,6 +44,8 @@ gem 'pismo'
 gem 'omniauth'
 gem 'omniauth-facebook'
 
+gem 'faker'
+
 group :test do
   gem 'cucumber-rails', :require => false
   # database_cleaner is not required, but highly recommended

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150302072928) do
+ActiveRecord::Schema.define(version: 20150303043510) do
 
   create_table "articles", force: true do |t|
     t.string   "url"
@@ -21,8 +21,8 @@ ActiveRecord::Schema.define(version: 20150302072928) do
     t.string   "photo"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "user_id"
     t.text     "initial_comment"
+    t.integer  "user_id"
   end
 
   add_index "articles", ["user_id"], name: "index_articles_on_user_id"
@@ -45,6 +45,17 @@ ActiveRecord::Schema.define(version: 20150302072928) do
 
   add_index "likes", ["article_id"], name: "index_likes_on_article_id"
   add_index "likes", ["user_id"], name: "index_likes_on_user_id"
+
+  create_table "subscriptions", force: true do |t|
+    t.integer  "subscriber_id"
+    t.integer  "subscribed_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "subscriptions", ["subscribed_id"], name: "index_subscriptions_on_subscribed_id"
+  add_index "subscriptions", ["subscriber_id", "subscribed_id"], name: "index_subscriptions_on_subscriber_id_and_subscribed_id", unique: true
+  add_index "subscriptions", ["subscriber_id"], name: "index_subscriptions_on_subscriber_id"
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
