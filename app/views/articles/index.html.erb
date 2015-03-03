@@ -1,8 +1,9 @@
-<h1>Listing articles</h1>
+<h1>My Article Feed</h1>
 
 <table>
   <thead>
     <tr>
+      <th>Posted By</th>
       <th>Url</th>
       <th>Title</th>
       <th>Datetime</th>
@@ -16,6 +17,7 @@
   <tbody>
     <% @articles.each do |article| %>
       <tr>
+        <td><%= article.user.first_name %> <%= article.user.last_name %></td>
         <td><%= article.url %></td>
         <td><%= article.title %></td>
         <td><%= article.datetime %></td>
@@ -29,7 +31,3 @@
     <% end %>
   </tbody>
 </table>
-
-<br>
-
-<%= link_to 'New Article', new_article_path %>

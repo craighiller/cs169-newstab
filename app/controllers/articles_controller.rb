@@ -5,7 +5,11 @@ class ArticlesController < ApplicationController
   respond_to :html
 
   def index
-    @articles = Article.all
+    if user_signed_in?
+      @articles = current_user.article_feed
+    else
+      @articles = Article.all
+    end
     respond_with(@articles)
   end
 
