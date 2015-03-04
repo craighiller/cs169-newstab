@@ -42,8 +42,10 @@ class ArticlesController < ApplicationController
       # Might need to change the location of this redirect
       redirect_to root_url
     else
+      flash[:notice] = "Invalid article."
+      
       # Let's change this later
-      redirect_to root_url
+      redirect_to new_article_path
     end
     
   end

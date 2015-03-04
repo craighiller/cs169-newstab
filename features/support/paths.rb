@@ -3,18 +3,19 @@ module NavigationHelpers
   def path_to(page_name)
     case page_name
     
-    when /^the (newstab )?home\s?page$/ then '/'
-    when /^the add new article page$/ then '/articles/new'
-    when /^the show all articles page$/ then '/articles'
-    when /^the show all users$/ then '/users'
-
+    when /^the (newstab )?home\s?page$/
+      '/'
+    when /^the add new article page$/
+      '/articles/new'
+    when /^the show all articles page$/
+      '/articles'
+    when /^the show all users$/
+      '/users'
     when /^the show article for "(.*)"$/
       article_path(Articles.find_by_title($1))
-    
     when /^the show page for user email "(.*)"$/
       user_path(Users.find_by_email($1))
-    
-      
+
     else
       begin
         page_name =~ /^the (.*) page$/
@@ -27,3 +28,5 @@ module NavigationHelpers
     end
   end
 end
+
+World(NavigationHelpers)
