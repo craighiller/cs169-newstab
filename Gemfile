@@ -43,7 +43,7 @@ gem 'devise'
 gem 'pismo'
 gem 'omniauth'
 gem 'omniauth-facebook'
-
+gem 'selenium-webdriver'
 gem 'faker'
 
 group :test do
@@ -52,3 +52,7 @@ group :test do
   gem 'database_cleaner'
 end
 
+group :production do
+  gem 'pg',             '0.17.1'
+  gem 'rails_12factor', '0.0.2'
+end
