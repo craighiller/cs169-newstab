@@ -5,10 +5,13 @@ Feature: Articles
   So that Articles can be shared with newstab users
   I want to be able to create, share and view articles
   
-@javascript  
+@javascript 
+
+   
 Scenario: an authenticated user can post an article
-   Given I am signed in with provider "facebook"
-   When I follow "new article"
+   When I sign in
+   Then I should see "User is signed in as"
+   When I follow "New Article"
    And I input article url
    And I input Initial comment
    And I press submit
