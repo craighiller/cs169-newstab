@@ -28,6 +28,7 @@ module WithinHelpers
   def with_scope(locator)
     locator ? within(*selector_for(locator)) { yield } : yield
   end
+  
 end
 World(WithinHelpers)
 
@@ -365,4 +366,8 @@ end
 
 And /^I wait a bit$/ do 
   sleep 0.5
+end
+
+Then /^I debug$/ do
+  byebug
 end

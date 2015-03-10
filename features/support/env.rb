@@ -5,6 +5,7 @@
 # files.
 
 require 'cucumber/rails'
+require 'byebug'
 
 # Capybara defaults to CSS3 selectors rather than XPath.
 # If you'd prefer to use XPath, just uncomment this line and adjust any
@@ -61,13 +62,15 @@ Before('@omniauth_test') do
   Capybara.default_host = 'http://example.com'
 
   OmniAuth.config.add_mock(:facebook, {
+    :provider => 'facebook',
     :uid => '12345',
     :info => {
+      :email => 'foobar@example.com',
       :first_name => 'fbuser',
       :last_name => 'dickhead'
     }
   })
-
+  
 end
 
 After('@omniauth_test') do

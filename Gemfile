@@ -14,6 +14,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'selenium-webdriver'
 gem 'faker'
+gem 'fakeweb'
 
 
 group :development, :test do
@@ -37,6 +38,8 @@ group :test do
   gem 'cucumber-rails', :require => false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
+  gem 'byebug'
+  
 end
 
 group :production do
