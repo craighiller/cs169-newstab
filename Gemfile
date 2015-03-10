@@ -13,6 +13,7 @@ gem 'pismo'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'selenium-webdriver'
+gem 'selenium'
 gem 'faker'
 
 
