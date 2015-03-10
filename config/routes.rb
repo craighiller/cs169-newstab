@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   # Source: https://github.com/plataformatec/devise/wiki/How-To:-Manage-users-through-a-CRUD-interface
   devise_for :users, :path_prefix => "profile", :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   
-  # get 'auth/:provider', to: 'sessions#create'
+  devise_scope :user do
+    get 'auth/:provider', to: 'devise/sessions#create'
+  end
   
   # Handles CRUD operations (but in reality only index/show) for users.
   # This line MUST be listed after 'devise_for :users'
