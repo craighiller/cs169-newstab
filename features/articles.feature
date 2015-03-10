@@ -4,11 +4,9 @@ Feature: Articles
   As a  user
   So that Articles can be shared with newstab users
   I want to be able to create, share and view articles
-  
-<<<<<<< HEAD
+
 @javascript 
 
-   
 Scenario: an authenticated user can post an article
    When I sign in
    Then I should see "User is signed in as"
