@@ -6,7 +6,8 @@ Feature: Articles
   I want to be able to create, share and view articles
   
   Background:
-    Given I am signed in
+    Given another has signed up
+    And I am signed in
     And I am on the homepage
 
 @javascript 
@@ -56,38 +57,41 @@ Scenario: a user should be able to log out
 #   Then I should be redirected to the '/home' page
 #   And I should see ...
    
-Scenario: a user cannot delete the articles of others
+Scenario: a user cannot edit another user's articles
   Given the following articles exist:
     | user_id  | url                                        | initial_comment                             |
     | 1        | cool_news_article.com                      | The description for the next big startup.   |
-  And I am on the show page for article "1"
-  Then I should not see element "delete_article"
+  Then I am on the show page for article "cool_news_article.com"
+  And I follow "Edit Article"
+  Then I should see "You do not have permission to edit this article."
 
-# Scenario: a user cannot edit another user's article
-#   Given the following article exist:
-#     | user_id  | article                                    | initial_comment                             |
-#     | 1        | A great concept for the next big startup!  | The description for the next big startup.   |
-#   And I am on the show page for article "1"
-#   Then I should not see element "edit_article"
+Scenario: a user cannot delete another user's article
+  Given the following articles exist:
+    | user_id  | url                                        | initial_comment                             |
+    | 1        | cool_news_article.com                      | The description for the next big startup.   |
+  Then I am on the show page for article "cool_news_article.com"
+  And I follow "Destroy Article"
+  Then I should see "You do not have permission to delete this article."
 
-# Scenario: a user can destory another user's article
-#   Given the following article exist:
-#     | user_id  | article                                    | initial_comment                             |
-#     | 1        | A great concept for the next big startup!  | The description for the next big startup.   |
-#   And I am on the show page for article "1"
-#   Then I should see element "destory_article"
-#   And I press destory article
-#   Then I should not see article "1"
+Scenario: a user can destroy their own article
+  Given the following articles exist:
+    | user_id  | url                                    | initial_comment                             |
+    | 2        | cool_news_article.com                  | The description for the next big startup.   |
+  Then I am on the show page for article "cool_news_article.com"
+  And I follow "Destroy Article"
+  Then I should not see "cool_news_article.com"
+  And I should not see "The description for the next big startup."
   
 # @javascript
-# Scenario: a user can edit his article
-#   Given I am signed in with provider "facebook"
-#   And the following article exist:
-#     | user_id  | article                                    | initial_comment                             |
-#     | 1        | A great concept for the next big startup!  | The description for the next big startup.   |
-#   And I am on the show page for article "1"
-#   And I click element "edit_article"
-#   And I fill in "article[description]" with "I changed my comment."
-#   And I click element "update_article"
-#   Then I should be on the show page for article "1"
-#   Then I should see "I changed my article."
+Scenario: a user can edit his article
+  # Given I am signed in with provider "facebook"
+  And the following articles exist:
+    | user_id  | url                                    | initial_comment                             |
+    | 2        | cool_news_article.com                  | The description for the next big startup.   |
+  Then I am on the show page for article "cool_news_article.com"
+  And I follow "Edit Article"
+  And I fill in "Initial comment" with "I changed my comment."
+  And I press "Update Article"
+  Then I should see "Article successfully updated."
+  And I am on the show page for article "cool_news_article.com"
+  And I should see "I changed my comment."

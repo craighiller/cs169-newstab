@@ -29,7 +29,7 @@
 
 <p>
   <strong>Content:</strong>
-  <%= @article.content.html_safe %>
+  <%= @article.content.html_safe unless @article.content.blank? %>
 </p>
 
 <p>
@@ -93,7 +93,7 @@
 
 <%= form_for ([@article, @article.comments.build]) do |f| %>
   <div class="field">
-    <%= f.text_area :body, placeholder: "Compose new comment..." %>
+    <%= f.text_area :body, placeholder: "Compose new comment...", :id => "comment_box" %>
   </div>
   <%= f.submit "Post" %>
 <% end %>

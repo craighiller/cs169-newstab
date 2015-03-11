@@ -11,8 +11,10 @@ module NavigationHelpers
       '/articles'
     when /^the show all users$/
       '/users'
-    when /^the show article for "(.*)"$/
-      article_path(Articles.find_by_title($1))
+    when /^the show page for article "(.*)"$/
+      article_path(Article.find_by_url($1))
+    when /^the show page for article by id "(.*)"$/
+      article_path(Article.find($1))
     when /^the show page for user email "(.*)"$/
       user_path(Users.find_by_email($1))
 
