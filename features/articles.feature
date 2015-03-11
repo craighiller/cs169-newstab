@@ -4,30 +4,35 @@ Feature: Articles
   As a  user
   So that Articles can be shared with newstab users
   I want to be able to create, share and view articles
+  
+  Background:
+    Given I am signed in
+    And I am on the homepage
 
 @javascript 
-
-Scenario: an authenticated user can post an article
-   When I sign in
+Scenario: a signed in user can post an article
    Then I should see "User is signed in as"
-   When I follow "New Article"
-   And I input article url
-   And I input Initial comment
-   And I press submit
-   Then I should be on the show page for article "1"
-   And I should see "article url"
-   And I should see "initial comment"
-
-Scenario: a non-Facebook user can sign up and post article
-   Given I am on the homepage
-   And I follow "Sign up"
-   When I fill in "Email" with "helloworld@gmail.com"
-   And I fill in "First name" with "Hello"
-   And I fill in "Last name" with "World"
-   And I fill in "Password" with "helloworld"
-   And I fill in "Password confirmation" with "helloworld"
    Then I should see "New Article"
-   And if I follow "New Article"
+   Then I should see "My Profile"
+   When I follow "New Article"
+   And I fill in "Url" with "Hello_World_Article_URL.com"
+   And I fill in "Initial comment" with "My first comment" 
+   And I press "Create Article"
+   Then I should see "Article created!"
+   Then I should see "Hello_World_Article_URL.com"
+   Then I should see "My first comment"
+   Then article url "Hello_World_Article_URL.com" should exist
+
+# Scenario: a non-Facebook user can sign up and post article
+#    Given I am on the homepage
+#    And I follow "Sign up"
+#    When I fill in "Email" with "helloworld@gmail.com"
+#    And I fill in "First name" with "Hello"
+#    And I fill in "Last name" with "World"
+#    And I fill in "Password" with "helloworld"
+#    And I fill in "Password confirmation" with "helloworld"
+#    Then I should see "New Article"
+#    And if I follow "New Article"
   # Then I should see 
 
 # # Need to revise the following: Only a few scenarios I thought we should cover -
@@ -36,10 +41,11 @@ Scenario: a non-Facebook user can sign up and post article
 #   And I delete an article that I find is posted by me
 #   Then I should be redirected to '/feed' page and that article should not be there
 
-# Scenario: a user should be able to log out
-#   Given I am signed in and I am on the '/home' page
-#   And if I follow "sign out"
-#   Then I should not be signed in
+Scenario: a user should be able to log out
+  Then I am on the homepage
+  And I follow "Sign out"
+  Then I should not see "Sign out"
+  Then I should see "Sign up"
 
 # Scenario: a user should be able to sign in through Facebook
 #   Given I am on the '/home' page
@@ -50,12 +56,12 @@ Scenario: a non-Facebook user can sign up and post article
 #   Then I should be redirected to the '/home' page
 #   And I should see ...
    
-# Scenario: a user cannot delete the articles of others
-#   Given the following articles exist:
-#     | user_id  | article                                    | initial_comment                             |
-#     | 1        | A great concept for the next big startup!  | The description for the next big startup.   |
-#   And I am on the show page for article "1"
-#   Then I should not see element "delete_article"
+Scenario: a user cannot delete the articles of others
+  Given the following articles exist:
+    | user_id  | url                                        | initial_comment                             |
+    | 1        | cool_news_article.com                      | The description for the next big startup.   |
+  And I am on the show page for article "1"
+  Then I should not see element "delete_article"
 
 # Scenario: a user cannot edit another user's article
 #   Given the following article exist:
