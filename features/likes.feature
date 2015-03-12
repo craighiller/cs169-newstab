@@ -31,9 +31,11 @@ Scenario: an authenticated user can like an article
 
 @javascript
 Scenario: a user cannot unlike articles they did not like
-  Given the following likes exist:
+  Given I follow "Sign out"
+  And the following likes exist:
     | user_id  | article_id  |
     | 1        | 1           |
+  And another user is signed in
   And I am on the show page for article by id "1"
   Then I should see "Number of Likes: 1"
   And I should see "Like this article!"
