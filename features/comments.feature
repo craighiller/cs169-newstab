@@ -39,7 +39,9 @@ Scenario: a unauthenticated user cannot post a comment
 Scenario: an authenticated user can post a comment
   And I am on the show page for article "fake_url"
   And I click element "comment_box"
-  # Then I should see "Your comment can't be blank." in element "red_flash"
+  And I press "Post"
+  Then I should see "Comment cannot be blank."
+  And I am on the show page for article "fake_url"
   And I fill in "comment[body]" with "Some cool comment I want to add"
   And I press "Post"
   Then I should be on the show page for article "fake_url"

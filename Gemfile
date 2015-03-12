@@ -20,6 +20,8 @@ gem 'fakeweb'
 group :development, :test do
   gem 'sqlite3'
   gem 'spring'
+  gem 'rspec-rails', '~> 2.14.0'
+  gem 'simplecov'
 end
 
 # Use ActiveModel has_secure_password

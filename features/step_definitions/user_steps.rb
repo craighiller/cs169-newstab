@@ -42,16 +42,6 @@ When /^another user is signed in$/ do
 end
 
 When /^another user has signed up$/ do
-  step %Q{I am on the homepage}
-  step %Q{I follow "Sign up"}
-  step %Q{I wait a bit}
-  step %Q{I wait a bit}
-  step %Q{I wait a bit}
-  step %Q{I fill in "Email" with "helloworld2@gmail.com"}
-  step %Q{I fill in "First name" with "Hello2"}
-  step %Q{I fill in "Last name" with "World2"}
-  step %Q{I fill in "Password" with "helloworld2"}
-  step %Q{I fill in "Password confirmation" with "helloworld2"}
-  step %Q{I press "Sign up"}
+  step %Q{another user is signed in}
   step %Q{I follow "Sign out"}
 end
