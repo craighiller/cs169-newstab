@@ -15,6 +15,7 @@ gem 'omniauth-facebook'
 gem 'selenium-webdriver'
 gem 'faker'
 gem 'fakeweb'
+gem 'rake'
 
 
 group :development, :test do
