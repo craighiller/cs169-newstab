@@ -2,7 +2,7 @@
 
 ## Iteration 0 ##
 
-This is the README for "Newstab", a Spring 2015 CS169 project!!
+This is the README for "Newstab", a Spring 2015 CS169 project!
 
 This project is being developed on Cloud9, and lives here:
 
