@@ -45,3 +45,21 @@ When /^another user has signed up$/ do
   step %Q{another user is signed in}
   step %Q{I follow "Sign out"}
 end
+
+Given /^the following users exist:$/  do |table|
+  # table is a Cucumber::Ast::Table
+  table.hashes.each do |row|
+      step %Q{I am on the homepage}
+      step %Q{I follow "Sign up"}
+      step %Q{I wait a bit}
+      step %Q{I wait a bit}
+      step %Q{I wait a bit}
+      step %Q{I fill in "Email" with "#{row[:username]}@gmail.com"}
+      step %Q{I fill in "First name" with "#{row[:username]}"}
+      step %Q{I fill in "Last name" with "World1"}
+      step %Q{I fill in "Password" with "helloworld1"}
+      step %Q{I fill in "Password confirmation" with "helloworld1"}
+      step %Q{I press "Sign up"}
+      step %Q{I follow "Sign out"}
+  end
+end

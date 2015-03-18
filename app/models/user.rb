@@ -12,6 +12,8 @@ class User < ActiveRecord::Base
   has_many :likes
   has_many :comments, dependent: :destroy
   
+  
+  
   # 'this' user is actively subscribed to other users
   # i.e. user.active_subscriptions.create(subscribed_id: another_user.id) means that
   # 'this' user is following another_user
@@ -21,6 +23,15 @@ class User < ActiveRecord::Base
   # the other users that 'this' user is subscribing to
   # i.e. user.subscribing.include?(other_user) checks whether 'this' user is subscribing to other_user
   has_many :subscribing, through: :active_subscriptions, source: :subscribed
+  
+  has_many :groups
+  
+  has_many :subscriptors_groups, class_name: "Group", through: :subscribing
+  
+  has_many :group_subscriptions
+  
+  has_many :groups_subscribed, through: :group_subscriptions
+  
   
   # reverse of active_subscriptions
   # represents other users who are subscribed to 'this' user

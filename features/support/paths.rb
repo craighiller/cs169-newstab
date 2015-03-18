@@ -17,7 +17,8 @@ module NavigationHelpers
       article_path(Article.find($1))
     when /^the show page for user email "(.*)"$/
       user_path(Users.find_by_email($1))
-
+    when /^the group page for group with index "(.*)"$/
+      group_path(Group.find($1))
     else
       begin
         page_name =~ /^the (.*) page$/
