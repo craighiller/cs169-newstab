@@ -1,6 +1,6 @@
 # Newstab - Spring 2015 CS169 #
 
-## Iteration 0 ##
+## Iteration 2 ##
 
 This is the README for "Newstab", a Spring 2015 CS169 project!
 
