@@ -12,16 +12,14 @@ Feature: Articles
 
 @javascript 
 Scenario: a signed in user can post an article
-  Then I should see "User is signed in as"
+  Then I should see "Sign out"
   Then I should see "New Article"
-  Then I should see "My Profile"
+  Then I should see "Hello"
   When I follow "New Article"
   And I fill in "Url" with "Hello_World_Article_URL.com"
   And I fill in "Initial comment" with "My first comment" 
   And I press "Create Article"
   Then I should see "Article created!"
-  Then I should see "Hello_World_Article_URL.com"
-  Then I should see "My first comment"
   Then article url "Hello_World_Article_URL.com" should exist
 
 Scenario: a user should be able to log out

@@ -1,0 +1,23 @@
+
+<div class="col-xs-6" style="background-color:lightblue; padding: 5px; display: table-cell; border: thin;">
+  <a href="<%= group_path(group)%>">
+    <div>
+    <h3><%= group.group_name %></h3>
+    <% if group.creator %>
+      Created by: <%= group.creator.full_name %>
+      Followers: <%= group.followers.to_s %>
+    <% end %>
+    </div>
+  </a>
+  <% if user_signed_in? %>
+    <% if current_user.subscribed_group? group %>
+    	<%= form_tag ("/groups/unsubscribe/" + group.id.to_s) do %>
+    	  <input name="commit" type="submit" value="Unsubscribe">
+    	<% end %>
+  	<% else %>
+    	<%= form_tag ("/groups/subscribe/" + group.id.to_s) do %>
+    	  <input name="commit" type="submit" value="Subscribe">
+    	<% end %>
+  	<% end %>
+	<% end %>
+</div>

@@ -1,20 +1,22 @@
 <!-- Placeholder header for user sign in -->
 
-<%= link_to "Home", root_path %>
-<%= link_to "List of Users", users_path %>
 
-<br />
-
-<% if user_signed_in? %>
-  User is signed in as <%= current_user.first_name %> <%= current_user.last_name %>
-  <br />
-  <%= link_to 'New Article', new_article_path %>
-  <%= link_to "My Profile", current_user %>
-  <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
-<% else %>
-  User is not signed in.
-  <%= link_to "Sign in", new_user_session_path %>
-  <%= link_to "Sign up", new_user_registration_path %>
-<% end %>
-
-<hr />
+<nav class="navbar navbar-default" role="navigation">
+   <div class="navbar-header">
+      <a class="navbar-brand" href="<%= root_path %>">NewsTab</a>
+   </div>
+   <div>
+      <ul class="nav navbar-nav">
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "Groups", groups_path %></li>
+          <% if user_signed_in? %>
+            <li><%= link_to 'New Article', new_article_path %>
+            <li><%= link_to current_user.first_name, current_user %>
+            <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+          <% else %>
+            <li><%= link_to "Sign in", new_user_session_path %>
+            <li><%= link_to "Sign up", new_user_registration_path %>
+          <% end %>
+      </ul>
+   </div>
+</nav>

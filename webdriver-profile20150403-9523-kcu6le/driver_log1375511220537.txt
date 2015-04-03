@@ -1,0 +1,290 @@
+{"level":"INFO","message":"[fxdriver.badCertListener] Found preference for webdriver_assume_untrusted_issuer: true","timestamp":1428028813412,"type":""}
+{"level":"INFO","message":"[fxdriver.badCertListener] Found preference for webdriver_accept_untrusted_certs: true","timestamp":1428028813413,"type":""}
+{"level":"INFO","message":"[fxdriver.WdCertOverrideService] Accept untrusted certificates: true","timestamp":1428028813413,"type":""}
+{"level":"INFO","message":"[fxdriver.WebDriverServer] Using native events: false","timestamp":1428028813586,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Loading: resource://fxdriver/evaluate.js","timestamp":1428028813587,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Done reading: resource://fxdriver/evaluate.js","timestamp":1428028813596,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: newSession","timestamp":1428028814075,"type":""}
+{"level":"INFO","message":"[fxdriver.wdSessionStoreService] Setting preferences based on required capabilities","timestamp":1428028814250,"type":""}
+{"level":"INFO","message":"[fxdriver.wdSessionStoreService] Setting capability nativeEvents (webdriver_enable_native_events) to false","timestamp":1428028814251,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Created a new session with id: 3f3f6f7c-1fa4-41da-929f-ec9b79d177d1","timestamp":1428028814252,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: get","timestamp":1428028814770,"type":""}
+{"level":"INFO","message":"[fxdriver.wdSession] setWaitForPageLoad false","timestamp":1428028814771,"type":""}
+{"level":"INFO","message":"[fxdriver.wdSession] setWaitForPageLoad true","timestamp":1428028814774,"type":""}
+{"level":"INFO","message":"[fxdriver.ServerFactory] Driven by WebDriver version 2.45.0","timestamp":1428028814827,"type":""}
+{"level":"INFO","message":"[fxdriver.PatientListener] request status is 0","timestamp":1428028816153,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028816256,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028816563,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: clickElement","timestamp":1428028816631,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativemouse;1","timestamp":1428028816653,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Falling back to synthesized click","timestamp":1428028816663,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.move http://127.0.0.1:46806/profile/users/sign_up 319 20","timestamp":1428028816666,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling mouse.move with: 319, 20, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028816667,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 305, 198.5, [object HTMLBodyElement]","timestamp":1428028816752,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseout 305, 198.5, [object HTMLBodyElement]","timestamp":1428028816756,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 305, 198.5, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028816756,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseover 305, 198.5, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028816757,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 305, 198.5, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028816758,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mousemove 305, 198.5, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028816760,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.click http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028816761,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] About to do a bot.action.click on http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028816769,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Not loading document anymore.","timestamp":1428028816840,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028818376,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028818442,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028818565,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028818622,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028818766,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028818826,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028818981,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028819046,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] No need to switch focus","timestamp":1428028819057,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028819068,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028819157,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028819415,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028819497,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028819607,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028819758,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028819818,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028819958,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028820024,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028820180,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Need to switch focus","timestamp":1428028820189,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028820211,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028820213,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028820380,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028820449,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028820608,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028820764,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028820839,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028820985,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028821050,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028821215,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Need to switch focus","timestamp":1428028821227,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028821250,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028821251,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028821408,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028821561,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028821632,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028821802,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028821950,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028822218,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028822611,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028822809,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Need to switch focus","timestamp":1428028822818,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028822840,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028822841,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028824969,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028825058,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028825225,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028825377,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028825438,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028825596,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028825750,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028825821,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Need to switch focus","timestamp":1428028825830,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028825852,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028825854,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028826018,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028826172,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028826380,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: clickElement","timestamp":1428028826445,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativemouse;1","timestamp":1428028826456,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Falling back to synthesized click","timestamp":1428028826457,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 32 12","timestamp":1428028826547,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling mouse.move with: 32, 12, [object HTMLInputElement]","timestamp":1428028826548,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 57, 395, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028826563,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseout 57, 395, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028826564,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 57, 395, [object HTMLInputElement]","timestamp":1428028826564,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseover 57, 395, [object HTMLInputElement]","timestamp":1428028826565,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 57, 395, [object HTMLInputElement]","timestamp":1428028826566,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mousemove 57, 395, [object HTMLInputElement]","timestamp":1428028826567,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]","timestamp":1428028826568,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]","timestamp":1428028826572,"type":""}
+{"level":"INFO","message":"[fxdriver.PatientListener] request status is 0","timestamp":1428028827212,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] New page loading.","timestamp":1428028827213,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028827372,"type":""}
+{"level":"SEVERE","message":"[fxdriver.wdSession] Lost DOM in window undefined","timestamp":1428028827373,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028827435,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: clickElement","timestamp":1428028827602,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativemouse;1","timestamp":1428028827612,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Falling back to synthesized click","timestamp":1428028827613,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.move http://127.0.0.1:46806/profile/users/sign_out 311 20","timestamp":1428028827614,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling mouse.move with: 311, 20, http://127.0.0.1:46806/profile/users/sign_out","timestamp":1428028827615,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 297, 238.5, http://127.0.0.1:46806/profile/users/sign_out","timestamp":1428028827622,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseover 297, 238.5, http://127.0.0.1:46806/profile/users/sign_out","timestamp":1428028827624,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 297, 238.5, http://127.0.0.1:46806/profile/users/sign_out","timestamp":1428028827624,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mousemove 297, 238.5, http://127.0.0.1:46806/profile/users/sign_out","timestamp":1428028827628,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.click http://127.0.0.1:46806/profile/users/sign_out","timestamp":1428028827629,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] About to do a bot.action.click on http://127.0.0.1:46806/profile/users/sign_out","timestamp":1428028827636,"type":""}
+{"level":"INFO","message":"[fxdriver.PatientListener] request status is 0","timestamp":1428028828053,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] New page loading.","timestamp":1428028828053,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: get","timestamp":1428028828218,"type":""}
+{"level":"INFO","message":"[fxdriver.wdSession] setWaitForPageLoad false","timestamp":1428028828219,"type":""}
+{"level":"SEVERE","message":"[fxdriver.wdSession] Lost DOM in window undefined","timestamp":1428028828219,"type":""}
+{"level":"INFO","message":"[fxdriver.wdSession] setWaitForPageLoad true","timestamp":1428028828221,"type":""}
+{"level":"INFO","message":"[fxdriver.PatientListener] request status is 0","timestamp":1428028828458,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028828629,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028828819,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: clickElement","timestamp":1428028829006,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativemouse;1","timestamp":1428028829016,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Falling back to synthesized click","timestamp":1428028829018,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.move http://127.0.0.1:46806/profile/users/sign_up 319 20","timestamp":1428028829020,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling mouse.move with: 319, 20, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028829020,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 305, 198.5, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028829026,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseover 305, 198.5, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028829027,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 305, 198.5, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028829028,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mousemove 305, 198.5, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028829030,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.click http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028829031,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] About to do a bot.action.click on http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028829036,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Not loading document anymore.","timestamp":1428028829085,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028830671,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028830758,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028830836,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028830990,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028831163,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028831241,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028831384,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028831554,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] No need to switch focus","timestamp":1428028831563,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028831575,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028831577,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028831747,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028831833,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028832027,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028832170,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028832253,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028832402,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028832557,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028832657,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Need to switch focus","timestamp":1428028832751,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028832775,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028832777,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028832874,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028833058,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028833239,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028833398,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028833557,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028833642,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028833809,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028833952,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Need to switch focus","timestamp":1428028833963,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028833979,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028833981,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028834160,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028834251,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028834408,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028834562,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028834622,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028834781,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028834841,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028835002,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Need to switch focus","timestamp":1428028835012,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028835028,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028835029,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028835187,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028835248,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028835404,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028835554,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028835620,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028835767,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028835823,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028835977,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Need to switch focus","timestamp":1428028835986,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028836005,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028836006,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028836173,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028836234,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028836392,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: clickElement","timestamp":1428028836456,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativemouse;1","timestamp":1428028836557,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Falling back to synthesized click","timestamp":1428028836558,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 32 12","timestamp":1428028836560,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling mouse.move with: 32, 12, [object HTMLInputElement]","timestamp":1428028836560,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 57, 395, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028836574,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseout 57, 395, http://127.0.0.1:46806/profile/users/sign_up","timestamp":1428028836575,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 57, 395, [object HTMLInputElement]","timestamp":1428028836576,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseover 57, 395, [object HTMLInputElement]","timestamp":1428028836576,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 57, 395, [object HTMLInputElement]","timestamp":1428028836577,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mousemove 57, 395, [object HTMLInputElement]","timestamp":1428028836578,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]","timestamp":1428028836579,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]","timestamp":1428028836583,"type":""}
+{"level":"INFO","message":"[fxdriver.PatientListener] request status is 0","timestamp":1428028837000,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] New page loading.","timestamp":1428028837000,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: get","timestamp":1428028837171,"type":""}
+{"level":"INFO","message":"[fxdriver.wdSession] setWaitForPageLoad false","timestamp":1428028837171,"type":""}
+{"level":"SEVERE","message":"[fxdriver.wdSession] Lost DOM in window undefined","timestamp":1428028837172,"type":""}
+{"level":"INFO","message":"[fxdriver.wdSession] setWaitForPageLoad true","timestamp":1428028837174,"type":""}
+{"level":"INFO","message":"[fxdriver.PatientListener] request status is 0","timestamp":1428028837400,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028837565,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028837636,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementText","timestamp":1428028837801,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028838043,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028838198,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementText","timestamp":1428028838264,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028838596,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028838658,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementText","timestamp":1428028838810,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028839045,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028839206,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: clickElement","timestamp":1428028839381,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativemouse;1","timestamp":1428028839391,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Falling back to synthesized click","timestamp":1428028839392,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.move http://127.0.0.1:46806/articles/new 319 20","timestamp":1428028839393,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling mouse.move with: 319, 20, http://127.0.0.1:46806/articles/new","timestamp":1428028839394,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 305, 158.5, http://127.0.0.1:46806/articles/new","timestamp":1428028839399,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseover 305, 158.5, http://127.0.0.1:46806/articles/new","timestamp":1428028839401,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 305, 158.5, http://127.0.0.1:46806/articles/new","timestamp":1428028839401,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mousemove 305, 158.5, http://127.0.0.1:46806/articles/new","timestamp":1428028839404,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.click http://127.0.0.1:46806/articles/new","timestamp":1428028839404,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] About to do a bot.action.click on http://127.0.0.1:46806/articles/new","timestamp":1428028839408,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Not loading document anymore.","timestamp":1428028839457,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028839748,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028839954,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028840030,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028840183,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028840242,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028840405,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028840551,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028840622,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Need to switch focus","timestamp":1428028840631,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028840646,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028840647,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028840951,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028841031,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028841184,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementTagName","timestamp":1428028841249,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028841419,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementAttribute","timestamp":1428028841566,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: executeScript","timestamp":1428028841635,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: sendKeysToElement","timestamp":1428028841806,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Need to switch focus","timestamp":1428028841816,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativekeyboard;1","timestamp":1428028841837,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] Doing sendKeys in a non-native way...","timestamp":1428028841838,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028842159,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028842371,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementEnabled","timestamp":1428028842452,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: clickElement","timestamp":1428028842749,"type":""}
+{"level":"WARNING","message":"[fxdriver.Utils] Unable to find native component: @openqa.org/nativemouse;1","timestamp":1428028842764,"type":""}
+{"level":"INFO","message":"[fxdriver.WebElement] Falling back to synthesized click","timestamp":1428028842766,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 51 12","timestamp":1428028842767,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling mouse.move with: 51, 12, [object HTMLInputElement]","timestamp":1428028842767,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 61, 394.6000061035156, http://127.0.0.1:46806/articles/new","timestamp":1428028842782,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseout 61, 394.6000061035156, http://127.0.0.1:46806/articles/new","timestamp":1428028842783,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 61, 394.6000061035156, [object HTMLInputElement]","timestamp":1428028842784,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mouseover 61, 394.6000061035156, [object HTMLInputElement]","timestamp":1428028842784,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 61, 394.6000061035156, [object HTMLInputElement]","timestamp":1428028842785,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] Called fireMouseEvent mousemove 61, 394.6000061035156, [object HTMLInputElement]","timestamp":1428028842786,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]","timestamp":1428028842787,"type":""}
+{"level":"INFO","message":"[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]","timestamp":1428028842792,"type":""}
+{"level":"INFO","message":"[fxdriver.PatientListener] request status is 0","timestamp":1428028843231,"type":""}
+{"level":"INFO","message":"[fxdriver.Utils] New page loading.","timestamp":1428028843232,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028843430,"type":""}
+{"level":"SEVERE","message":"[fxdriver.wdSession] Lost DOM in window undefined","timestamp":1428028843431,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: isElementDisplayed","timestamp":1428028843587,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: getElementText","timestamp":1428028843651,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: deleteAllCookies","timestamp":1428028844160,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: get","timestamp":1428028844237,"type":""}
+{"level":"INFO","message":"[fxdriver.wdSession] setWaitForPageLoad false","timestamp":1428028844238,"type":""}
+{"level":"INFO","message":"[fxdriver.wdSession] setWaitForPageLoad true","timestamp":1428028844240,"type":""}
+{"level":"INFO","message":"[fxdriver.PatientListener] request status is 0","timestamp":1428028844260,"type":""}
+{"level":"INFO","message":"[fxdriver.nsCommandProcessor] Received command: findElements","timestamp":1428028844422,"type":""}

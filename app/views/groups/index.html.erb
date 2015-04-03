@@ -1,0 +1,35 @@
+<div class="container">
+  <%= link_to 'Create Group', new_group_path if user_signed_in? %>
+  <div class="row" id="public-groups">
+<h3>Public Groups</h3>
+    <% @groups.each do |group| %>
+      <%= render group %>
+    <% end %>
+    </div>
+<% if user_signed_in? %>
+  <div class="row" id="my-groups">
+    <h3>My Groups</h3>
+    <% @my_groups.each do |group| %>
+      <%= render group %>
+    <% end %>
+  </div>
+  <div class="row" id="my-subscribed-groups">
+    <h3>My Subscribed Groups</h3>
+    <% @groups.each do |group| %>
+      <%= render group %>
+    <% end %>
+  </div>
+  <div class="row" id="my-subscribers-groups">
+    <h3>My Subscribers Groups</h3>
+    <% @subscribers_groups.each do |group| %>
+      <%= render group %>
+    <% end %>
+  </div>
+  <div class="row" id="my-invitations">
+    <h3>My Invitations </h3>
+    <% @group_invitations.each do |group| %>
+      <%= render group %>
+    <% end %>
+    </div>
+<% end %>
+</div>

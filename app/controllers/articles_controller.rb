@@ -11,6 +11,7 @@ class ArticlesController < ApplicationController
     else
       @articles = Article.all
     end
+    @articles = @articles.page(params[:page] || 1).per(12)
     respond_with(@articles)
   end
 

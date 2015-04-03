@@ -24,13 +24,19 @@ class User < ActiveRecord::Base
   # i.e. user.subscribing.include?(other_user) checks whether 'this' user is subscribing to other_user
   has_many :subscribing, through: :active_subscriptions, source: :subscribed
   
+  # Groups created by this user
   has_many :groups
   
-  has_many :subscriptors_groups, class_name: "Group", through: :subscribing
+  # Groups to which this use has been invited
+  has_many :group_invitations
+  has_many :invited_groups, through: :group_invitations, source: :group
   
+  # Groups to which this user actively subscribes
   has_many :group_subscriptions
+  has_many :subscribed_groups, through: :group_subscriptions, source: :group
   
-  has_many :groups_subscribed, through: :group_subscriptions
+  # Groups created by people to which the user subscribes
+  has_many :subscribed_users_groups, through: :subscribing, source: :groups
   
   
   # reverse of active_subscriptions
@@ -75,12 +81,22 @@ class User < ActiveRecord::Base
     self.subscribing.include?(other_user)
   end
   
+  
+  def subscribed_group? group
+    subscribed_groups.include? group
+  end
+  
+  
   # Returns a user's article feed, which includes:
   # (1) articles that the user has posted him/herself
   # (2) articles that have been posted by users that the user is subscribed to
   # TODO: We need to paginate or introduce infinite scroll for this
   def article_feed
     Article.where("user_id IN (?) OR user_id = ?", subscribing_ids, self.id)
+  end
+  
+  def full_name
+    first_name.to_s + " " + last_name.to_s
   end
   
 end

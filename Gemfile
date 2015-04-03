@@ -17,6 +17,9 @@ gem 'faker'
 gem 'fakeweb'
 gem 'rake'
 
+gem 'bootstrap-sass', '~> 3.3.4'
+gem 'kaminari'
+
 
 group :development, :test do
   gem 'sqlite3'

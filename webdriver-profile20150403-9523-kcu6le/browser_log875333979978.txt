@@ -1,0 +1,361 @@
+{"level":"INFO","message":"Failed to load native module at path '/usr/lib/firefox/components/libxpcomsample.so': (80004005) /usr/lib/firefox/components/libxpcomsample.so: cannot open shared object file: No such file or directory\n","timestamp":1428028813369,"type":""}
+{"level":"WARNING","message":"mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create","timestamp":1428028813369,"type":""}
+{"level":"INFO","message":"1428028811477\taddons.manager\tDEBUG\tLoaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: [\"XPIProvider\"]\n","timestamp":1428028813369,"type":""}
+{"level":"INFO","message":"1428028811550\taddons.manager\tDEBUG\tLoaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: [\"LightweightThemeManager\"]\n","timestamp":1428028813370,"type":""}
+{"level":"INFO","message":"1428028811556\taddons.xpi\tDEBUG\tstartup\n","timestamp":1428028813370,"type":""}
+{"level":"INFO","message":"1428028811558\taddons.xpi\tINFO\tMapping fxdriver@googlecode.com to /home/ubuntu/workspace/webdriver-profile20150403-9523-kcu6le/extensions/fxdriver@googlecode.com\n","timestamp":1428028813370,"type":""}
+{"level":"INFO","message":"1428028811561\taddons.xpi\tINFO\tMapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}\n","timestamp":1428028813370,"type":""}
+{"level":"INFO","message":"1428028811563\taddons.xpi\tINFO\tMapping ubufox@ubuntu.com to /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com\n","timestamp":1428028813371,"type":""}
+{"level":"INFO","message":"1428028811564\taddons.xpi\tDEBUG\tcheckForChanges\n","timestamp":1428028813371,"type":""}
+{"level":"INFO","message":"1428028811565\taddons.xpi\tDEBUG\tLoaded add-on state from prefs: {\"app-profile\":{\"fxdriver@googlecode.com\":{\"d\":\"/home/ubuntu/workspace/webdriver-profile20150403-9523-kcu6le/extensions/fxdriver@googlecode.com\",\"e\":true,\"v\":\"2.45.0\",\"st\":1428028809000,\"mt\":1428028808000}},\"app-global\":{\"{972ce4c6-7e08-4474-a285-3208198ce6fd}\":{\"d\":\"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}\",\"e\":true,\"v\":\"35.0\",\"st\":1421685179000,\"mt\":1421096476000}},\"app-system-share\":{\"ubufox@ubuntu.com\":{\"d\":\"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com\",\"e\":false,\"v\":\"3.0\",\"st\":1421685184000,\"mt\":1420839872000}}}\n","timestamp":1428028813371,"type":""}
+{"level":"INFO","message":"1428028811567\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of fxdriver@googlecode.com\n","timestamp":1428028813372,"type":""}
+{"level":"INFO","message":"1428028811580\taddons.xpi\tDEBUG\tgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}\n","timestamp":1428028813373,"type":""}
+{"level":"INFO","message":"1428028811582\taddons.xpi\tDEBUG\tgetInstallState changed: false, state: {\"app-profile\":{\"fxdriver@googlecode.com\":{\"d\":\"/home/ubuntu/workspace/webdriver-profile20150403-9523-kcu6le/extensions/fxdriver@googlecode.com\",\"e\":true,\"v\":\"2.45.0\",\"st\":1428028809000,\"mt\":1428028808000}},\"app-global\":{\"{972ce4c6-7e08-4474-a285-3208198ce6fd}\":{\"d\":\"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}\",\"e\":true,\"v\":\"35.0\",\"st\":1421685179000,\"mt\":1421096476000}},\"app-system-share\":{\"ubufox@ubuntu.com\":{\"d\":\"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com\",\"e\":false,\"v\":\"3.0\",\"st\":1421685184000,\"mt\":1420839872000}}}\n","timestamp":1428028813374,"type":""}
+{"level":"INFO","message":"1428028811586\taddons.xpi\tDEBUG\tNo changes found\n","timestamp":1428028813374,"type":""}
+{"level":"INFO","message":"1428028811591\taddons.manager\tDEBUG\tRegistering shutdown blocker for XPIProvider\n","timestamp":1428028813374,"type":""}
+{"level":"INFO","message":"1428028811592\taddons.manager\tDEBUG\tRegistering shutdown blocker for LightweightThemeManager\n","timestamp":1428028813374,"type":""}
+{"level":"INFO","message":"1428028811594\taddons.manager\tDEBUG\tRegistering shutdown blocker for OpenH264Provider\n","timestamp":1428028813375,"type":""}
+{"level":"INFO","message":"1428028811595\taddons.manager\tDEBUG\tRegistering shutdown blocker for PluginProvider\n","timestamp":1428028813375,"type":""}
+{"level":"WARNING","message":"Trying to re-register CID '{e26dbdcd-d3ba-4ded-88c3-6cb07ee3e9e0}' already registered by file:///home/ubuntu/workspace/webdriver-profile20150403-9523-kcu6le/extensions/fxdriver@googlecode.com/components/prompt-service.js.","timestamp":1428028813375,"type":""}
+{"level":"INFO","message":"Native module at path '/home/ubuntu/workspace/webdriver-profile20150403-9523-kcu6le/extensions/fxdriver@googlecode.com/platform/Linux_x86_64-gcc3/components/libwebdriver-firefox-latest.so' is incompatible with this version of Firefox, has version 34, expected 35.\n","timestamp":1428028813376,"type":""}
+{"level":"INFO","message":"Could not read chrome manifest 'file:///usr/lib/firefox/browser/extensions/%7B972ce4c6-7e08-4474-a285-3208198ce6fd%7D/chrome.manifest'.\n","timestamp":1428028813376,"type":""}
+{"level":"INFO","message":"While creating services from category 'profile-after-change', could not create service for entry 'MobileConnection Service', contract ID '@mozilla.org/mobileconnection/mobileconnectionservice;1'\n","timestamp":1428028813377,"type":""}
+{"level":"INFO","message":"Warning: unrecognized command line flag -foreground\n","timestamp":1428028813377,"type":""}
+{"level":"INFO","message":"1428028813388\taddons.xpi-utils\tDEBUG\tStarting async load of XPI database /home/ubuntu/workspace/webdriver-profile20150403-9523-kcu6le/extensions.json\n","timestamp":1428028813975,"type":""}
+{"level":"INFO","message":"Blocklist::_preloadBlocklistFile: blocklist is disabled\n","timestamp":1428028814614,"type":""}
+{"level":"INFO","message":"1428028814590\taddons.manager\tDEBUG\tRegistering shutdown blocker for <unnamed-provider>\n","timestamp":1428028814614,"type":""}
+{"level":"INFO","message":"1428028814606\taddons.xpi-utils\tDEBUG\tAsync JSON file read took 0 MS\n","timestamp":1428028814617,"type":""}
+{"level":"INFO","message":"1428028814606\taddons.xpi-utils\tDEBUG\tFinished async read of XPI database, parsing...\n","timestamp":1428028814618,"type":""}
+{"level":"INFO","message":"1428028814608\taddons.xpi-utils\tDEBUG\tSuccessfully read XPI database\n","timestamp":1428028814618,"type":""}
+{"level":"INFO","message":"1428028814820\taddons.repository\tDEBUG\tNo addons.json found.\n","timestamp":1428028814828,"type":""}
+{"level":"INFO","message":"1428028814822\tDeferredSave.addons.json\tDEBUG\tSave changes\n","timestamp":1428028814829,"type":""}
+{"level":"INFO","message":"1428028814826\tDeferredSave.addons.json\tDEBUG\tStarting timer\n","timestamp":1428028814829,"type":""}
+{"level":"INFO","message":"1428028814950\tDeferredSave.addons.json\tDEBUG\tStarting write\n","timestamp":1428028814962,"type":""}
+{"level":"INFO","message":"1428028814964\tDeferredSave.addons.json\tDEBUG\tWrite succeeded\n","timestamp":1428028814967,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-inner-spin-button'.  Ruleset ignored due to bad selector.","timestamp":1428028815645,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-search-cancel-button'.  Ruleset ignored due to bad selector.","timestamp":1428028815646,"type":""}
+{"level":"WARNING","message":"Unknown property '-moz-osx-font-smoothing'.  Declaration dropped.","timestamp":1428028815646,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028815646,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028815647,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028815647,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-ms-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028815648,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028815648,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-min-device-pixel-ratio'.","timestamp":1428028815648,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028815649,"type":""}
+{"level":"WARNING","message":"Unknown property 'touch-action'.  Declaration dropped.","timestamp":1428028815649,"type":""}
+{"level":"WARNING","message":"Unknown property 'user-select'.  Declaration dropped.","timestamp":1428028815649,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028815650,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815650,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815650,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815651,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815651,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815651,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815652,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815652,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815652,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815652,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815653,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815653,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815653,"type":""}
+{"level":"WARNING","message":"Unknown property 'zoom'.  Declaration dropped.","timestamp":1428028815654,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815746,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815747,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815747,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815747,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815748,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815748,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found 'transform-3d'.","timestamp":1428028815749,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-transform-3d'.","timestamp":1428028815749,"type":""}
+{"level":"WARNING","message":"Error in parsing value for '-moz-perspective'.  Declaration dropped.","timestamp":1428028815749,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'perspective'.  Declaration dropped.","timestamp":1428028815750,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815751,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815751,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815752,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815752,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815752,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028815753,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815753,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028815753,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'background-color'.  Declaration dropped.","timestamp":1428028815754,"type":""}
+{"level":"WARNING","message":"Password fields present on an insecure (http://) page. This is a security risk that allows user login credentials to be stolen.","timestamp":1428028817968,"type":""}
+{"level":"WARNING","message":"Password fields present in a form with an insecure (http://) form action. This is a security risk that allows user login credentials to be stolen.","timestamp":1428028817969,"type":""}
+{"level":"WARNING","message":"Password fields present on an insecure (http://) page. This is a security risk that allows user login credentials to be stolen.","timestamp":1428028817970,"type":""}
+{"level":"WARNING","message":"Password fields present in a form with an insecure (http://) form action. This is a security risk that allows user login credentials to be stolen.","timestamp":1428028817970,"type":""}
+{"level":"WARNING","message":"Use of getAttributeNode() is deprecated. Use getAttribute() instead.","timestamp":1428028818834,"type":""}
+{"level":"WARNING","message":"Key event not available on some keyboard layouts: key=\"c\" modifiers=\"accel,alt\"","timestamp":1428028819200,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-inner-spin-button'.  Ruleset ignored due to bad selector.","timestamp":1428028827159,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-search-cancel-button'.  Ruleset ignored due to bad selector.","timestamp":1428028827159,"type":""}
+{"level":"WARNING","message":"Unknown property '-moz-osx-font-smoothing'.  Declaration dropped.","timestamp":1428028827159,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028827160,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028827160,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028827160,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-ms-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028827160,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028827161,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-min-device-pixel-ratio'.","timestamp":1428028827161,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028827161,"type":""}
+{"level":"WARNING","message":"Unknown property 'touch-action'.  Declaration dropped.","timestamp":1428028827162,"type":""}
+{"level":"WARNING","message":"Unknown property 'user-select'.  Declaration dropped.","timestamp":1428028827162,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028827163,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827163,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827164,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827164,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827165,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827165,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827166,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827166,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827167,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827167,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827168,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827168,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827169,"type":""}
+{"level":"WARNING","message":"Unknown property 'zoom'.  Declaration dropped.","timestamp":1428028827169,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827170,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827170,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827170,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827171,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827171,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827172,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found 'transform-3d'.","timestamp":1428028827172,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-transform-3d'.","timestamp":1428028827172,"type":""}
+{"level":"WARNING","message":"Error in parsing value for '-moz-perspective'.  Declaration dropped.","timestamp":1428028827173,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'perspective'.  Declaration dropped.","timestamp":1428028827173,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827174,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827174,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827175,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827175,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827175,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028827176,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827176,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028827177,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'background-color'.  Declaration dropped.","timestamp":1428028827177,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-inner-spin-button'.  Ruleset ignored due to bad selector.","timestamp":1428028828002,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-search-cancel-button'.  Ruleset ignored due to bad selector.","timestamp":1428028828002,"type":""}
+{"level":"WARNING","message":"Unknown property '-moz-osx-font-smoothing'.  Declaration dropped.","timestamp":1428028828003,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028828006,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028828007,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028828007,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-ms-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028828008,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028828008,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-min-device-pixel-ratio'.","timestamp":1428028828008,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028828009,"type":""}
+{"level":"WARNING","message":"Unknown property 'touch-action'.  Declaration dropped.","timestamp":1428028828009,"type":""}
+{"level":"WARNING","message":"Unknown property 'user-select'.  Declaration dropped.","timestamp":1428028828009,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028828010,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828010,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828010,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828011,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828011,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828011,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828012,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828012,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828012,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828013,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828013,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828013,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828014,"type":""}
+{"level":"WARNING","message":"Unknown property 'zoom'.  Declaration dropped.","timestamp":1428028828014,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828014,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828014,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828015,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828015,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828015,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828016,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found 'transform-3d'.","timestamp":1428028828016,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-transform-3d'.","timestamp":1428028828016,"type":""}
+{"level":"WARNING","message":"Error in parsing value for '-moz-perspective'.  Declaration dropped.","timestamp":1428028828016,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'perspective'.  Declaration dropped.","timestamp":1428028828017,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828017,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828017,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828017,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828018,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828018,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828018,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828019,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828019,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'background-color'.  Declaration dropped.","timestamp":1428028828020,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-inner-spin-button'.  Ruleset ignored due to bad selector.","timestamp":1428028828413,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-search-cancel-button'.  Ruleset ignored due to bad selector.","timestamp":1428028828414,"type":""}
+{"level":"WARNING","message":"Unknown property '-moz-osx-font-smoothing'.  Declaration dropped.","timestamp":1428028828414,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028828414,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028828415,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028828415,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-ms-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028828415,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028828415,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-min-device-pixel-ratio'.","timestamp":1428028828416,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028828416,"type":""}
+{"level":"WARNING","message":"Unknown property 'touch-action'.  Declaration dropped.","timestamp":1428028828416,"type":""}
+{"level":"WARNING","message":"Unknown property 'user-select'.  Declaration dropped.","timestamp":1428028828417,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028828417,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828417,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828418,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828418,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828418,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828419,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828419,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828419,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828419,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828420,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828420,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828420,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828420,"type":""}
+{"level":"WARNING","message":"Unknown property 'zoom'.  Declaration dropped.","timestamp":1428028828421,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828423,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828423,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828423,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828424,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828424,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828424,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found 'transform-3d'.","timestamp":1428028828424,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-transform-3d'.","timestamp":1428028828425,"type":""}
+{"level":"WARNING","message":"Error in parsing value for '-moz-perspective'.  Declaration dropped.","timestamp":1428028828425,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'perspective'.  Declaration dropped.","timestamp":1428028828425,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828425,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828426,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828426,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828426,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828426,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028828427,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828427,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028828427,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'background-color'.  Declaration dropped.","timestamp":1428028828427,"type":""}
+{"level":"WARNING","message":"Password fields present on an insecure (http://) page. This is a security risk that allows user login credentials to be stolen.","timestamp":1428028829375,"type":""}
+{"level":"WARNING","message":"Password fields present in a form with an insecure (http://) form action. This is a security risk that allows user login credentials to be stolen.","timestamp":1428028829376,"type":""}
+{"level":"WARNING","message":"Password fields present on an insecure (http://) page. This is a security risk that allows user login credentials to be stolen.","timestamp":1428028829379,"type":""}
+{"level":"WARNING","message":"Password fields present in a form with an insecure (http://) form action. This is a security risk that allows user login credentials to be stolen.","timestamp":1428028829380,"type":""}
+{"level":"WARNING","message":"Use of getAttributeNode() is deprecated. Use getAttribute() instead.","timestamp":1428028831245,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-inner-spin-button'.  Ruleset ignored due to bad selector.","timestamp":1428028836917,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-search-cancel-button'.  Ruleset ignored due to bad selector.","timestamp":1428028836917,"type":""}
+{"level":"WARNING","message":"Unknown property '-moz-osx-font-smoothing'.  Declaration dropped.","timestamp":1428028836918,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028836948,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028836948,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028836949,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-ms-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028836949,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028836949,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-min-device-pixel-ratio'.","timestamp":1428028836950,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028836950,"type":""}
+{"level":"WARNING","message":"Unknown property 'touch-action'.  Declaration dropped.","timestamp":1428028836951,"type":""}
+{"level":"WARNING","message":"Unknown property 'user-select'.  Declaration dropped.","timestamp":1428028836951,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028836952,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836952,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836952,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836953,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836953,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836954,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836954,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836955,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836955,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836956,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836956,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836957,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836957,"type":""}
+{"level":"WARNING","message":"Unknown property 'zoom'.  Declaration dropped.","timestamp":1428028836958,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836959,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836960,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836960,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836961,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836961,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836961,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found 'transform-3d'.","timestamp":1428028836962,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-transform-3d'.","timestamp":1428028836962,"type":""}
+{"level":"WARNING","message":"Error in parsing value for '-moz-perspective'.  Declaration dropped.","timestamp":1428028836963,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'perspective'.  Declaration dropped.","timestamp":1428028836963,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836964,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836964,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836965,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836965,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836965,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028836966,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836966,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028836967,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'background-color'.  Declaration dropped.","timestamp":1428028836967,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-inner-spin-button'.  Ruleset ignored due to bad selector.","timestamp":1428028837351,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-search-cancel-button'.  Ruleset ignored due to bad selector.","timestamp":1428028837352,"type":""}
+{"level":"WARNING","message":"Unknown property '-moz-osx-font-smoothing'.  Declaration dropped.","timestamp":1428028837352,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028837353,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028837353,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028837354,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-ms-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028837354,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028837355,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-min-device-pixel-ratio'.","timestamp":1428028837355,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028837356,"type":""}
+{"level":"WARNING","message":"Unknown property 'touch-action'.  Declaration dropped.","timestamp":1428028837356,"type":""}
+{"level":"WARNING","message":"Unknown property 'user-select'.  Declaration dropped.","timestamp":1428028837357,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028837357,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837358,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837358,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837359,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837359,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837360,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837360,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837360,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837361,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837361,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837362,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837362,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837362,"type":""}
+{"level":"WARNING","message":"Unknown property 'zoom'.  Declaration dropped.","timestamp":1428028837363,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837363,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837364,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837364,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837364,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837365,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837365,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found 'transform-3d'.","timestamp":1428028837366,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-transform-3d'.","timestamp":1428028837366,"type":""}
+{"level":"WARNING","message":"Error in parsing value for '-moz-perspective'.  Declaration dropped.","timestamp":1428028837366,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'perspective'.  Declaration dropped.","timestamp":1428028837366,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837367,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837367,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837368,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837368,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837369,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028837369,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837369,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028837370,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'background-color'.  Declaration dropped.","timestamp":1428028837370,"type":""}
+{"level":"WARNING","message":"Use of getAttributeNode() is deprecated. Use getAttribute() instead.","timestamp":1428028840409,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-inner-spin-button'.  Ruleset ignored due to bad selector.","timestamp":1428028843187,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-search-cancel-button'.  Ruleset ignored due to bad selector.","timestamp":1428028843187,"type":""}
+{"level":"WARNING","message":"Unknown property '-moz-osx-font-smoothing'.  Declaration dropped.","timestamp":1428028843187,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028843188,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028843188,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028843188,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-ms-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028843188,"type":""}
+{"level":"WARNING","message":"Unknown pseudo-class or pseudo-element '-webkit-input-placeholder'.  Ruleset ignored due to bad selector.","timestamp":1428028843189,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-min-device-pixel-ratio'.","timestamp":1428028843189,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'margin-top'.  Declaration dropped.","timestamp":1428028843189,"type":""}
+{"level":"WARNING","message":"Unknown property 'touch-action'.  Declaration dropped.","timestamp":1428028843190,"type":""}
+{"level":"WARNING","message":"Unknown property 'user-select'.  Declaration dropped.","timestamp":1428028843190,"type":""}
+{"level":"WARNING","message":"Expected color but found 'auto'.  Expected color but found '-webkit-focus-ring-color'.  Expected end of value but found '-webkit-focus-ring-color'.  Error in parsing value for 'outline'.  Declaration dropped.","timestamp":1428028843191,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843191,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843191,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843191,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843192,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843192,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843192,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843192,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843193,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843193,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843193,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843193,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843194,"type":""}
+{"level":"WARNING","message":"Unknown property 'zoom'.  Declaration dropped.","timestamp":1428028843194,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843194,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843195,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843195,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843195,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843195,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843195,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found 'transform-3d'.","timestamp":1428028843196,"type":""}
+{"level":"WARNING","message":"Expected media feature name but found '-webkit-transform-3d'.","timestamp":1428028843196,"type":""}
+{"level":"WARNING","message":"Error in parsing value for '-moz-perspective'.  Declaration dropped.","timestamp":1428028843196,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'perspective'.  Declaration dropped.","timestamp":1428028843197,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843197,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843197,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843198,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843198,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843199,"type":""}
+{"level":"WARNING","message":"Error in parsing value for 'background-image'.  Declaration dropped.","timestamp":1428028843199,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'progid'.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843199,"type":""}
+{"level":"WARNING","message":"Expected 'none', URL, or filter function but found 'alpha('.  Error in parsing value for 'filter'.  Declaration dropped.","timestamp":1428028843199,"type":""}
+{"level":"WARNING","message":"Expected end of value but found '\\9 '.  Error in parsing value for 'background-color'.  Declaration dropped.","timestamp":1428028843200,"type":""}

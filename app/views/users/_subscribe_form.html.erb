@@ -1,12 +1,11 @@
 <!-- This form will be rendered on the user show page -->
 <!-- Don't render any of this if @user is the current user (user can't subscribe to him/herself) -->
-<% unless current_user == @user %>
+<% unless current_user == @user || !user_signed_in? %>
 
   <% if current_user.subscribing?(@user) %>
     <%= form_for(current_user.active_subscriptions.find_by(subscribed_id: @user.id), html: { method: :delete }) do |f| %>
       <%= f.submit "Unsubscribe" %>
     <% end %>
-    
   <% else %>
   
     <%= form_for(current_user.active_subscriptions.build) do |f| %>

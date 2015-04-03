@@ -4,13 +4,13 @@ class CommentsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create, :edit, :destroy, :update]
   respond_to :html
 
-  def index
-    redirect_to @article
-  end
+  # def index
+  #   redirect_to @article
+  # end
 
-  def show
-    redirect_to @article
-  end
+  # def show
+  #   redirect_to @article
+  # end
 
   def new
     @comment = Comment.new
@@ -32,10 +32,10 @@ class CommentsController < ApplicationController
     redirect_to @article
   end
 
-  def update
-    @comment.update(comment_params)
-    respond_with(@comment)
-  end
+  # def update
+  #   @comment.update(comment_params)
+  #   respond_with(@comment)
+  # end
 
   def destroy
     if @comment

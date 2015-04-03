@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<%= form_tag ("/groups/invite/" + @group.id.to_s) do %>
+  <label for="username">Username</label>:
+  <input id="username" name="username" type="text" /><br/>
+  <input name="commit" type="submit" value="Invite">
+<% end %>
+
+<p>
+  <strong>User:</strong>
+  <%= @group.user_id %>
+</p>
+
+<p>
+  <strong>Group name:</strong>
+  <%= @group.group_name %>
+</p>
+
+<p>
+  <strong>Private:</strong>
+  <%= @group.private %>
+</p>
+
+<p>
+  <strong>Subscribers only:</strong>
+  <%= @group.subscribers_only %>
+</p>
+
+<%= link_to 'Edit', edit_group_path(@group) %> |
+<%= link_to 'Back', groups_path %>

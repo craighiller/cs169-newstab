@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   
   resources :groups
-
+  post 'groups/subscribe/:id', to: 'groups#subscribe'
+  post 'groups/unsubscribe/:id', to: 'groups#unsubscribe'
+  post 'groups/invite/:id', to: 'groups#invite'
   resources :articles
   
   # We must declare a path prefix for devise user operations to avoid conflicts with CRUD user operations
