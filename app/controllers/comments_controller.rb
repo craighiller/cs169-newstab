@@ -12,10 +12,10 @@ class CommentsController < ApplicationController
   #   redirect_to @article
   # end
 
-  def new
-    @comment = Comment.new
-    respond_with(@comment)
-  end
+  # def new
+  #   @comment = Comment.new
+  #   respond_with(@comment)
+  # end
 
   def edit
   end

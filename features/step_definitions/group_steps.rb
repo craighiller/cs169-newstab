@@ -27,7 +27,7 @@ Then(/^I visit the all groups page$/) do
   visit '/groups'
 end
 
-Then(/^I visit the group page for (.*)$/) do |group_name|
+Then(/^I visit the group page for "(.*)"$/) do |group_name|
   visit '/groups/' + Group.find_by_group_name(group_name).id.to_s
 end
 

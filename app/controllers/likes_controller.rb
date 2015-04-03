@@ -25,9 +25,5 @@ class LikesController < ApplicationController
     def set_like
       @like = Like.find(params[:id])
     end
-
-    def like_params
-      params[:like]
-    end
     
 end
