@@ -24,7 +24,7 @@ Feature: GroupCreation
     Given I visit the group page for "Public"
     When I fill in "username" with "asdf@gmail.com"
     And I press "Invite"
-    Then I should see "Could not find user Example User"
+    Then I should see "Could not find user"
     And I should be on the group page for "Public"
   
   # Scenario: I can invite subscribers to my groups
