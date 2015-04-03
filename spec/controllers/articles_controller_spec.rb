@@ -132,7 +132,7 @@ describe ArticlesController, :type => :controller do
         assigns(:article).should eq(article)
       end
 
-      it "re-renders the 'edit' template" do
+      it "re renders the 'edit' template" do
         sign_in
         article = Article.create! valid_attributes
         # Trigger the behavior that occurs when invalid params are submitted
