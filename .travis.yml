@@ -1,3 +1,7 @@
 language: ruby
 rvm:
   - 2.1.5
+script:
+  - rake db:migrate db:test:prepare db:seed
+  - rake cucumber
+  - rake spec
